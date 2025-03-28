@@ -1,0 +1,10 @@
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/CNNCPP.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/evaluate.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/mlp_train.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/evaluate_mlp.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/run_train.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/run_evaluate.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/run_mlp.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/run_evaluate_mlp.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/aniru/Desktop/CNN in C++/CNNCPP/build/CMakeFiles/rebuild_cache.dir

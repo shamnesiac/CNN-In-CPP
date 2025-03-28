@@ -1,0 +1,20 @@
+rm -rf build
+mkdir build
+cd build
+
+# 3. Set environment variables for optimal performance
+export OMP_NUM_THREADS=$(nproc)  # Use all available CPU cores
+export OMP_SCHEDULE="dynamic"    # Dynamic load balancing
+export OMP_PROC_BIND="true"      # Bind threads to cores
+export OMP_PLACES="cores"        # Place threads on physical cores
+export OMP_MAX_ACTIVE_LEVELS=3   # Allow nested parallelism
+
+# 4. Configure CMake in Release mode with all optimizations
+cmake -DCMAKE_BUILD_TYPE=Release ..
+
+# 5. Build using all available cores
+make -j$(nproc)
+
+# 6. Run the program with optimal settings
+# Example with 60000 training images, 10000 test images, 10 epochs, and optimal batch size
+# ./CNNCPP --train-size 16000 --test-size 3200 --epochs 5 --batch-size 64
